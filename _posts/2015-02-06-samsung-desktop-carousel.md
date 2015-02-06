@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Card drag rotate
+title: Samsung desktop carousel
 date: 2015-02-07 00:02
 tags:
   - Greensock

@@ -5,13 +5,13 @@ description: About a little lorem ipsum
 theme: purple
 ---
 
-I am a web focused developer mostly working using Microsoft .Net technologies. Occasionally, I end up working on non web related projects. I am based in Abu Dhabi, United Arab Emirates and work for C4 Advanced Solution as Application Developer.
-This is my personal website and blog where I put down my thoughts, solutions to problems and learning notes.
+Before you can run, you need to walk. This is where I'm going to learn from other's ideas and
+inspirations, and try to reverse engineer other people's work and to learn how they achieve
+excellence.
 
 ## Github
 
 Use github. It rocks.
-
 
 ## About this Site
 
