@@ -1,7 +1,7 @@
 ---
 layout: master
-title: Abdel Raoof's Blog
-description: Landing Page for the blog
+title: Web interaction and animation
+description: Landing Page for the showcase
 bloghome: true
 ---
 
@@ -23,14 +23,14 @@ bloghome: true
                 <div class="publish-tag">
                   <span class="fa fa-calendar"></span>&nbsp;PUBLISHED ON {{ post.date | date: "%B %d, %Y" }}
                 </div>
-		              <div class="tags">
-                  {% if post.tags %}
-              		{% for tag in post.tags %}
-                			<a href="/tags/{{tag}}"><span class="label btn-orange">{{tag}}</span></a>
-              		{% endfor %}
-           		 {% else %}
-              		None
-            	 {% endif %}
+                  <div class="tags">
+                    {% if post.tags %}
+                      {% for tag in post.tags %}
+                        <a href="/tags/{{tag}}"><span class="label btn-orange">{{tag}}</span></a>
+                      {% endfor %}
+                    {% else %}
+                        None
+                    {% endif %}
                 </div>
                 <hr/>
               </article>

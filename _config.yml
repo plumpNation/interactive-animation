@@ -7,8 +7,8 @@ highlighter: pygments
 permalink:        /blog/:year/:month/:day/:title
 
 # Setup
-title:            'Jekyll Metro'
-tagline:          'A Metro theme for Jekyll'
+title:            'Web interaction and animation'
+tagline:          'A learning showcase'
 description:      'A Sample blog using Jekyll Metro'
 url:              'http://localhost:4000'
 baseurl:          ''
@@ -27,35 +27,32 @@ navigation:
   url : /archive/
 
 # Author Details
-author:         'Abdel Raoof Olakara'
-linkedin:       'https://ae.linkedin.com/in/olakara/'
-twitter:        'https://twitter.com/olakara'
-facebook:       'https://www.facebook.com/olakara'
-gplus:          'https://plus.google.com/100425464897246255887/'
+author:         'Gavin King'
+linkedin:       'https://www.linkedin.com/in/plumpnation/'
+twitter:        'https://twitter.com/plumpnation'
+facebook:       'https://www.facebook.com/plumpnation'
+gplus:          'https://plus.google.com/u/1/+GavinKing_AKA_plumpNation/posts'
 
 # Google Analytics
-gahandler: 'UA-52149651-1'
+gahandler:
 
-#if footer-links-visible is 'true' the svg-icons will be shown top on the copy right. 
+#if footer-links-visible is 'true' the svg-icons will be shown top on the copy right.
 #else the svg icons will not exist
 footersvg: 'true'
 
 footer-links:
-  dribbble: 
-  email: None
-  facebook: 
-  flickr: 
-  github: 
-  instagram: 
-  linkedin: 
-  pinterest: 
+  dribbble:
+  email: plumpnation@gmail.com
+  facebook: plumpnation
+  flickr:
+  github: plumpnation
+  instagram:
+  linkedin: plumpnation
+  pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  google: None
-  twitter: None
-  stackoverflow: #users/4388898/peter-zhu # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-
-# Disqus
-disqushandler: 'testingblogo'
+  google: plumpnation
+  twitter: plumpnation
+  stackoverflow: http://stackoverflow.com/users/1888094/plumpnation
 
 # Blog Configurations
 paginate: 10 # Posts per page on the blog index
@@ -63,4 +60,4 @@ paginate_path: '/blog/page:num'
 destination: ./_site
 
 # Custom vars
-version:          0.7.10
+version:          0.0.1

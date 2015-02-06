@@ -1,10 +1,16 @@
+# A web interaction and animation showcase
+
+Everything is reused from Jekyll Metro.
+
+Original README below. Thanks to the author :)
+
 # Jekyll Metro
 
 Jekyll Metro is a metro inspired theme for [Jekyll](http://jekyllrb.com).
 
 ## Summary
 
-Jekyll Metro is a theme built on top of bootstrap and other freely available libraries. Its aimed to provide a fully furnished Jekyll theme for personal sites with blog. 
+Jekyll Metro is a theme built on top of bootstrap and other freely available libraries. Its aimed to provide a fully furnished Jekyll theme for personal sites with blog.
 
 ## Features
 
