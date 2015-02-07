@@ -10,19 +10,19 @@ permalink:        /blog/:year/:month/:day/:title
 title:            'Web interaction and animation'
 tagline:          'A learning showcase'
 description:      'A Sample blog using Jekyll Metro'
-url:              'http://localhost:4000'
-baseurl:          ''
+url:
+baseurl:          './'
 
 # Navigation
 navigation:
 - text: About
-  url: /about/
+  url: about/
 - text: Blog
-  url: /blog/
+  url: blog/
 - text: Tags
-  url: /tags/
+  url: tags/
 - text: Archive
-  url : /archive/
+  url : archive/
 
 # Author Details
 author:         'Gavin King'
