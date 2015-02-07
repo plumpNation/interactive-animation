@@ -10,7 +10,7 @@ permalink:        /blog/:year/:month/:day/:title
 title:            'Web interaction and animation'
 tagline:          'A learning showcase'
 description:      'A Sample blog using Jekyll Metro'
-url:              'http://plumpnation.github.io/interactive-animation/'
+url:              'http://plumpnation.github.io/interactive-animation'
 
 baseurl:          ''
 
