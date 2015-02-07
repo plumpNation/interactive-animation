@@ -6,6 +6,9 @@ This repository is a place for me to try to build a collection of interactive an
 
 Thanks first of all to the creators of [Jekyll](http://jekyllrb.com/) and the [JekyllMetro theme](https://github.com/olakara/JekyllMetro).
 
+Also, I have had a lot of inspiration from the [3dtransforms](http://desandro.github.io/3dtransforms/) github site, although it concentrates on the
+CSS and not the interaction.
+
 ## Open source all the way
 
 Although I plan to only use open source libraries, I am starting out with the
