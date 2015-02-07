@@ -11,6 +11,7 @@ title:            'Web interaction and animation'
 tagline:          'A learning showcase'
 description:      'A Sample blog using Jekyll Metro'
 url:              'http://plumpnation.github.io/interactive-animation/'
+
 baseurl:          ''
 
 # Navigation
