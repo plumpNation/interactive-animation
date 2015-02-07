@@ -14,7 +14,6 @@ Oh my goodness how much or little do I know? Who knows. Me, you, noone?
 Absolutely none. I couldn't imagine a worse more mind numbing soul destroying job if I had ten years
 and a million pounds to try.
 
-
 Look, here's some html!
 
 <!-- Skills -->
