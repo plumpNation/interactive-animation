@@ -10,9 +10,8 @@ permalink:        /blog/:year/:month/:day/:title
 title:            'Web interaction and animation'
 tagline:          'A learning showcase'
 description:      'A Sample blog using Jekyll Metro'
-url:              'http://plumpnation.github.io/interactive-animation'
-
-baseurl:          ''
+url:              'http://plumpnation.github.io'
+baseurl:          'interactive-animation/'
 
 # Navigation
 navigation:
@@ -60,3 +59,8 @@ destination: ./_site
 
 # Custom vars
 version:          0.0.1
+
+exclude:
+#  - "bower_components"
+  - "node_modules"
+  - "bower.json"

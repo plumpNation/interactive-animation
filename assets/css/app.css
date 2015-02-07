@@ -7,7 +7,7 @@
     top:500px;
     right:20px;
     display:none;
-    background: url('../images/scroll-up.png') no-repeat 0px 0px;
+    background: url('/assets/images/scroll-up.png') no-repeat 0px 0px;
 }
 .scrollToTop:hover{
     text-decoration:none;
@@ -236,9 +236,15 @@ a.orange-link:focus {
 }
 
 .icon {
-    background-image: url("../images/icon.png");
+    background-image: url("/assets/images/icon.png");
     background-repeat: no-repeat;
     list-style: none outside none;
 }
 
-.icon-back{background-position:-966px -40px ; width: 48px ; height: 48px;display:inline-block;text-decoration:none}
+.icon-back{
+    background-position:-966px -40px ;
+    width: 48px;
+    height: 48px;
+    display:inline-block;
+    text-decoration:none;
+}

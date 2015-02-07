@@ -1,0 +1,25 @@
+{
+  "name": "demos",
+  "version": "0.0.1",
+  "description": "\"A learning showcase of web interactions.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plumpNation/interactive-animation.git"
+  },
+  "keywords": [
+    "interaction",
+    "animation"
+  ],
+  "author": "Gavin King <plumpnation@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plumpNation/interactive-animation/issues"
+  },
+  "homepage": "https://github.com/plumpNation/interactive-animation",
+  "devDependencies": {
+  }
+}
