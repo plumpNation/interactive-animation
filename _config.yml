@@ -10,7 +10,7 @@ permalink:        /blog/:year/:month/:day/:title
 title:            'Web interaction and animation'
 tagline:          'A learning showcase'
 description:      'A Sample blog using Jekyll Metro'
-url:
+url:              'http://localhost:4000'
 baseurl:          './'
 
 # Navigation
