@@ -7,7 +7,7 @@ tags:
   - Navigation
 ---
 
-[**Demo**](/demos/samsung-android-desktop.html)
+[**Demo**](demos/samsung-android-desktop.html)
 
 This example is just to start playing with the Greensock library again and see if I can achieve an interaction to order. The order is to create a clone of the interaction on the Samsung Android desktop.
 
