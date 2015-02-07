@@ -32,7 +32,7 @@ facebook:       'https://www.facebook.com/plumpnation'
 gplus:          'https://plus.google.com/u/1/+GavinKing_AKA_plumpNation/posts'
 
 # Google Analytics
-gahandler:
+gahandler: UA-3196709-9
 
 #if footer-links-visible is 'true' the svg-icons will be shown top on the copy right.
 #else the svg icons will not exist
