@@ -50,12 +50,12 @@ footer-links:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   google: plumpnation
   twitter: plumpnation
-  stackoverflow: http://stackoverflow.com/users/1888094/plumpnation
+  stackoverflow: users/1888094/plumpnation
 
 # Blog Configurations
 paginate: 10 # Posts per page on the blog index
-paginate_path: '/blog/page:num'
-destination: ./_site
+paginate_path: 'blog/page:num'
+destination: _site
 
 # Custom vars
 version:          0.0.1
