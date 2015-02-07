@@ -23,3 +23,5 @@ requires a commercial license, which is fine, it's just not what I'm trying to a
  - [Velocity](http://julian.com/research/velocity/)
  - others...
 - Find out how to make this README into the `about` page on the website.
+- Supercharge the site with [Grunt build tasks](https://github.com/robwierzbowski/generator-jekyllrb)
+ - Add bower_components to the .gitignore.
