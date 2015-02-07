@@ -1,0 +1,26 @@
+{
+  "name": "demos",
+  "version": "0.0.1",
+  "homepage": "plumpnation.github.io/interactive-animation",
+  "authors": [
+    "Gavin King <plumpnation@gmail.com>"
+  ],
+  "description": "A learning showcase of web interactions.",
+  "keywords": [
+    "animation",
+    "interaction"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "greensock": "~1.15.1",
+    "stats.js": "*"
+  }
+}
