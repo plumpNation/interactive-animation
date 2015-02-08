@@ -11,6 +11,7 @@
     width: 400%; /* this should be dynamic */
     position: relative;
     white-space: nowrap;
+    cursor: move;
 }
 
 .slide {
