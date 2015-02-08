@@ -41,7 +41,6 @@ I then came across [Dragdealer](http://skidding.github.io/dragdealer/) and it lo
 had exactly what I needed out of the box. Moreover, it was released with MIT license, which is,
 let's face it, the absolute best license there is, in the world, ever.
 
-
 ## The solution
 
 ### Markup
@@ -73,3 +72,12 @@ new Dragdealer('news-carousel', {
 });
 
 {% endhighlight %}
+
+## Todo
+
+- Page position indicator
+ - Look at the `getStep` method.
+- Make the page position indicator interactive and navigate on click.
+ - Look at `setStep` method.
+- Dynamic page update?
+ - Look at the `reflow` method
