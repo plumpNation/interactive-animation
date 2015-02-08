@@ -1,4 +1,5 @@
 # Configurations
+host: '0.0.0.0'
 markdown: kramdown
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 highlighter: pygments
@@ -11,7 +12,7 @@ title:            'Web interaction and animation'
 tagline:          'A learning showcase'
 description:      'A Sample blog using Jekyll Metro'
 url:              'http://plumpnation.github.io'
-baseurl:          'interactive-animation/'
+baseurl:          '/interactive-animation'
 
 # Navigation
 navigation:
