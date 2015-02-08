@@ -21,6 +21,7 @@
   ],
   "dependencies": {
     "greensock": "~1.15.1",
-    "stats.js": "*"
+    "stats.js": "*",
+    "skidding--dragdealer": "~0.9.8"
   }
 }
