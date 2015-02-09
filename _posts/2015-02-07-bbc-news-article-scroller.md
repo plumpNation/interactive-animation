@@ -85,9 +85,8 @@ new Dragdealer('news-carousel', dragOptions);
 
 ## Todo
 
-- Page position indicator
- - Look at the `getStep` method.
-- Make the page position indicator interactive and navigate on click.
- - Look at `setStep` method.
 - Dynamic page update?
  - Look at the `reflow` method
+- Accessibility testing.
+ - Do screenreaders need the pagination tool?
+- Dynamic loading of the content in each article.
