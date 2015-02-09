@@ -8,22 +8,27 @@ category: examples
 
 <section id="news-carousel" class="dragdealer">
     <div class="handle">
-        <div id="slide-1" class="slide">
-            <article class="news"></article>
-        </div><!--
-        --><div id="slide-2" class="slide">
-            <article class="news"></article>
-        </div><!--
-        --><div id="slide-3" class="slide">
-            <article class="news"></article>
-        </div><!--
-        --><div id="slide-4" class="slide">
-            <article class="news"></article>
-        </div>
+        <article id="slide-1" class="slide news"><h2>Article 1</h2></article><!--
+     --><article id="slide-2" class="slide news"><h2>Article 2</h2></article><!--
+     --><article id="slide-3" class="slide news"><h2>Article 3</h2></article><!--
+     --><article id="slide-4" class="slide news"><h2>Article 4</h2></article>
     </div>
 </section>
 
+<nav id="news-paginator">
+  <ul class="pagination">
+    <li class="page-btn"><a href="#">1</a></li>
+    <li class="page-btn"><a href="#">2</a></li>
+    <li class="page-btn"><a href="#">3</a></li>
+    <li class="page-btn"><a href="#">4</a></li>
+  </ul>
+</nav>
+
+<p class="credits">
+    This example was created using <a href="http://skidding.github.io/dragdealer/">Dragdealer</a>.
+</p>
+
 <script src="bower_components/skidding--dragdealer/src/dragdealer.js"></script>
-<script src="bower_components/stats.js/build/stats.min.js"></script>
-<script src="assets/js/stats.js"></script>
+<!-- <script src="bower_components/stats.js/build/stats.min.js"></script>
+<script src="assets/js/stats.js"></script> -->
 <script src="demos/bbc-news-article-scroller.js"></script>

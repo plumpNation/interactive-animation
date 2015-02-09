@@ -43,17 +43,27 @@ let's face it, the absolute best license there is, in the world, ever.
 
 ## The solution
 
+We will need
+
+- the actual article area, flick/swipe/draggable
+- pagination display
+ - as a bonus pagination control?
+
+Bootstrap is already loaded on this website so I'll make use of that.
+
 ### Markup
 
 {% highlight html %}
 
-<!-- the news-carousel is like the `view frame` -->
-<section id="news-carousel">
-    <!-- the handle is the `container` for the items -->
+<!-- The news-carousel is like the `view frame` -->
+<section id="news-carousel" class="dragdealer">
+    <!-- The handle is the `container` for the items and is necessary to hold the width value
+    of the articles combined, a value used by Dragdealer -->
     <div class="handle">
-        <div class="slide img1">
-            <article class="news"></article>
-        </div>
+        <article id="slide-1" class="slide news"></article>
+        <article id="slide-2" class="slide news"></article>
+        <article id="slide-3" class="slide news"></article>
+        <article id="slide-4" class="slide news"></article>
     </div>
 </section>
 
@@ -63,13 +73,13 @@ let's face it, the absolute best license there is, in the world, ever.
 
 {% highlight js %}
 
-// use the id of the dom element
-new Dragdealer('news-carousel', {
+var dragOptions = {
     steps: 4,
-    speed: 0.3,
-    loose: true,
-    requestAnimationFrame: true
-});
+    speed: 0.3
+};
+
+// Uses the id of or the actual dom element
+new Dragdealer('news-carousel', dragOptions);
 
 {% endhighlight %}
 

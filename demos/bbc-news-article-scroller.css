@@ -1,48 +1,51 @@
 #news-carousel {
-    height: 400px;
-    width: 300px;
-    position: relative;
-    overflow: hidden;
-    margin: 0 auto 40px;
+    width          : 300px;
+    height         : 400px;
+    position       : relative;
+    overflow       : hidden;
+    margin         : 0 auto;
 }
 
 .handle {
-    height: 100%;
-    width: 400%; /* this should be dynamic */
-    position: relative;
-    white-space: nowrap;
-    cursor: move;
+    width          : 400%;
+    height         : 100%;
+    position       : relative;
+    white-space    : nowrap;
+    cursor         : move;
 }
 
 .slide {
-    width: 25%; /* this should be dynamic */
-    height: 100%;
-    position: relative;
-    display: inline-block;
+    width          : 300px;
+    height         : 100%;
+    position       : relative;
+    display        : inline-block;
 }
 
 #slide-1 {
-    background: red;
+    background     : red;
 }
 
 #slide-2 {
-    background: green;
+    background     : green;
 }
 
 #slide-3 {
-    background: blue;
+    background     : blue;
 }
 
 #slide-4 {
-    background: purple;
+    background     : purple;
 }
 
 .news {
-    padding-top: 2rem;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    font-size: 4rem;
+    padding        : 1rem;
+    color          : white;
+    text-align     : center;
+    font-weight    : bold;
+}
 
-    display: inline-block;
+#news-paginator {
+    margin         : 0 auto 40px;
+    width          : 500px;
+    text-align     : center;
 }
