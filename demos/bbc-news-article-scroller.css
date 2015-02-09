@@ -10,7 +10,6 @@
     width          : 400%;
     height         : 100%;
     position       : relative;
-    white-space    : nowrap;
     cursor         : move;
 }
 
@@ -19,6 +18,7 @@
     height         : 100%;
     position       : relative;
     display        : inline-block;
+    vertical-align : top;
 }
 
 #slide-1 {
@@ -40,8 +40,7 @@
 .news {
     padding        : 1rem;
     color          : white;
-    text-align     : center;
-    font-weight    : bold;
+    overflow-y     : auto;
 }
 
 #news-paginator {

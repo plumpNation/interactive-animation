@@ -10,6 +10,8 @@ var dDealer = new Dragdealer(newsElement, {
     callback: function (x, y) {
         var page = dDealer.getStep()[0] - 1;
         $('.page-btn.active').removeClass('active');
+
+        // jQuery get() returns a DOM node, so we wrap it again. Ugly I know.
         $($('.page-btn').get(page)).addClass('active');
     }
 });
@@ -19,7 +21,7 @@ $('.page-btn').on('click', function (e) {
         self;
 
     e.preventDefault();
-    e.stopPropogation();
+    e.stopPropagation();
 
     self = $(this);
 
