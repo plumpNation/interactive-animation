@@ -56,14 +56,14 @@ Bootstrap is already loaded on this website so I'll make use of that.
 {% highlight html %}
 
 <!-- The news-carousel is like the `view frame` -->
-<section id="news-carousel" class="dragdealer">
+<section id="news-carousel">
     <!-- The handle is the `container` for the items and is necessary to hold the width value
     of the articles combined, a value used by Dragdealer -->
     <div class="handle">
-        <article id="slide-1" class="slide news"></article>
-        <article id="slide-2" class="slide news"></article>
-        <article id="slide-3" class="slide news"></article>
-        <article id="slide-4" class="slide news"></article>
+        <article id="slide-1" class="slide news">...</article>
+        <article id="slide-2" class="slide news">...</article>
+        <article id="slide-3" class="slide news">...</article>
+        <article id="slide-4" class="slide news">...</article>
     </div>
 </section>
 
@@ -86,7 +86,8 @@ new Dragdealer('news-carousel', dragOptions);
 ## Todo
 
 - Dynamic page update?
- - Look at the `reflow` method
+-- Look at the `reflow` method
 - Accessibility testing.
- - Do screenreaders need the pagination tool?
+-- Do screenreaders need the pagination tool?
 - Dynamic loading of the content in each article.
+- How can I copy and paste out of an article?
