@@ -12,46 +12,47 @@ tags:
 [**Demo**](demos/gesture-fullscreen.html)
 
 ## The brief
-Possibly the most difficult thing to manage in a responsive web application is your window real
-estate. The gods are against you and at the time of writing this there are many different issues
-that can crop up, hurting your release velocity and causing much consternation about how the user
-will actually use the view you are creating.
+Possibly the most difficult thing to manage in a responsive web application is the changing window real estate.
 
 My personal favourite of all the responsive view combinations is the resolution that is created
-when the soft keyboard opens. Android Chrome doesn't handle it the same way as the Apple devices do
-in Safari. Regardless, the soft keyboard takes ***a lot*** of your window away from you, and the
+when the soft keyboard opens. It takes ***a lot*** of your window away from you, and the
 applications ability to still have a user experience at all is seriously degraded.
-
-Luckily, the user is only trying to do one thing at this time, which is easy to anticipate. Typing.
 
 One of the cool things about scrolling the body on most mobile browsers is that the browser
 immediately goes full screen, which can help to remedy this issue by providing a load more window
-than you had before. The problem here is that a web application will rarely allow the body to
-scroll, it's not a website after all. With navigation menus, detail views, slide out menus etc,
-you naturally end up with scrollable **parts** of your page.
+than you had before.
+
+The problem here is that a web application will rarely allow the body to scroll, it's not a website
+after all. With navigation menus, detail views, slide out menus etc, you naturally end up with
+scrollable **parts** of your page.
 
 So, let's give the user a couple of options they didn't have before. It's easy enough to put a
-button in the menu to go full screen, so let's do that first.
+button in the menu to go full screen, so let's do that first. Then, let's make a simple gesture
+that doesn't get in the way of the user's experience but also doesn't force the user to open a
+menu. The gesture behaves like a hot key on a touch device.
 
 ## The research
+
+### A library for gestures
 For a few years now my go-to library for gestures in the browser has been HammerJS and I'm not about
-to change that now. When I need something else, I'll deal with it then. For now let's just install
-Hammer and get this show on the road.
+to change that now.
 
-For the full screen solution we need look no further than Mozilla's awesome
+### Going full screen
+For the full screen code snippet we need look no further than Mozilla's awesome
 [developer pages](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Using_full_screen_mode)
-where they inform us not only of web standards and their own solutions but other vendor's too.
+where they inform us not only of their API but other vendor's too.
 
-So we have found some info on how to go full screen, but how to get out of full screen. Well, all
-the browsers I have used provide very simple ways natively, so there is no point in creating another
-way for the user to escape it.
+### Leaving full screen
+When the browser goes into the full screen state via javascript it gives the user a warning and an
+instruction on how to deal with it. I'm never going to beat that, it works **really** well,
+and in my opinion is a good user experience. It's already been solved.
 
 ## The solution
 
 We will need
 
-- to install HammerJS
-- to hook up our events to go full screen
+1. to install HammerJS
+2. to hook up our events to go full screen
  - button click
  - swipe up on header
 
