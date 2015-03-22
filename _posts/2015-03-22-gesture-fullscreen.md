@@ -152,3 +152,8 @@ hammertimeButton.on('tap', goFullScreen);
 hammertimeHeader.get('swipe').set({ direction: Hammer.DIRECTION_VERTICAL });
 hammertimeHeader.on('swipeup', goFullScreen);
 {% endhighlight %}
+
+## More reading
+
+- [Building an amazing fullscreen mobile experience](http://www.html5rocks.com/en/mobile/fullscreen/)
+- [Sondre Sorhus' Screenfill library](https://github.com/sindresorhus/screenfull.js)
