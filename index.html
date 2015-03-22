@@ -40,7 +40,7 @@ description: Frontend Guild learning showcase
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
                 {% for post in site.posts offset:1 limit:1 %}
-                <a href="{{post.url}}">
+                <a href="{{site.baseurl}}{{post.url}}">
                     <div class="tile green bord">
                         <h3 class="title">Recent Article</h3>
                         <h4 class="title">{{ post.title }}</h4>
@@ -52,7 +52,7 @@ description: Frontend Guild learning showcase
 
             <div class="col-md-4 col-sm-6 col-xs-12">
                 {% for post in site.posts limit:1 %}
-                <a href="{{post.url}}">
+                <a href="{{site.baseurl}}{{post.url}}">
                     <div class="tile red bord">
                         <h3 class="title">Latest Article</h3>
                         <h4 class="title">{{ post.title }}</h4>
@@ -65,7 +65,7 @@ description: Frontend Guild learning showcase
             <div class="col-md-4 col-sm-6 col-xs-12">
                 {% for post in site.posts %}
                     {% if post.featured == true %}
-                    <a href="{{post.url}}">
+                    <a href="{{site.baseurl}}{{post.url}}">
                         <div class="tile orange bord">
                             <h3 class="title">Featured Article</h3>
                             <h4 class="title">{{ post.title }}</h4>
