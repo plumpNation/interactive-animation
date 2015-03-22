@@ -1,27 +1,25 @@
 # Interactive animation
 
-This repository is a place for me to try to build a collection of interactive animations in order to build knowledge of the existing solutions, tool chains and players.
+This repository is a place for me to try to build a collection of UX experiments in order to
+build knowledge of the existing solutions, tool chains and players.
 
 ## Thanks to...
 
 Thanks first of all to the creators of [Jekyll](http://jekyllrb.com/) and the [JekyllMetro theme](https://github.com/olakara/JekyllMetro).
 
-Also, I have had a lot of inspiration from the [3dtransforms](http://desandro.github.io/3dtransforms/) github site, although it concentrates on the
-CSS and not the interaction.
+## Why make this site?
 
-## Open source all the way
+The intentions of this site are
+- to promote web as an application platform
+- to showcase open source contributions, libraries and communities
+- to explore good user experience.
 
-Although I plan to only use open source libraries, I am starting out with the
-[Greensock](http://greensock.com/) library, which is free for all intents and purposes when doing
-a project like this. However, if anyone was to try and reuse any of the techniques here in a
-commercial work that requires licenses or renewal fees, or charges people to access, then Greensock
-requires a commercial license, which is fine, it's just not what I'm trying to achieve here.
+If you have any issues with what I've done, please feel free to register issues.
 
 ## Todo
-- BBC News Android - Article scroller
 - Samsung Android - Desktop navigation
 - Todoist Android - Sticky list subtitles
-- Compare with
+- Review
  - [famo.us](https://famo.us/)
  - [Velocity](http://julian.com/research/velocity/)
  - others...

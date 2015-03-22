@@ -22,6 +22,7 @@
   "dependencies": {
     "greensock": "~1.15.1",
     "stats.js": "*",
-    "skidding--dragdealer": "~0.9.8"
+    "skidding--dragdealer": "~0.9.8",
+    "hammer.js": "~2.0.4"
   }
 }
